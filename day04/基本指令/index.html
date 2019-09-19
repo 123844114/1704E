@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的第一个vue项目</title>
+    <style>
+        *{margin: 0;padding: 0}
+        .red{color:red}
+        .box{
+            width: 800px;
+            border: 1px solid red;
+        }
+        .box ul{
+            display: flex
+        }
+        li{
+            width: 25%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id='app'>
+        <h1  v-text="msg" v-bind:class="{red:isOk}" v-on:click='changeClass'></h1>
+        <h1>{{msg}}</h1>
+        <p v-text="1+1+1"></p>
+        <p v-show='false'>{{1>0?'ok':'no'}}</p>
+        <input type="text" v-model='msg'>
+        <h2 v-html="span" v-if="flag"></h2>
+        <button v-on:click="flag=!flag">按钮</button>
+        
+        <p><a v-bind:href='link' title="百度链接">百度</a></p>
+        <p v-if='sex==="female"'>进女厕</p>
+        <p v-else>进男厕</p>
+        <ul>
+            <li v-for="(item,index) in list">
+                {{index+1}} {{item.name}}
+            </li>
+        </ul>
+        <input type="text" v-for='(item,index) in list' >
+        <button v-on:click='list.unshift({name:"mary"})'>添加</button>
+        <div class="box">
+            <ul>
+                <li v-for="item in list ">
+                   <span>{{item.price}}</span>
+                   <p>{{item.name}}</p>
+                </li>
+            </ul>
+        </div>
+        <h1>{{checks}}</h1>
+        <p>
+            <label><input type='checkbox' v-model='checks' value='apple'> 苹果</label>
+            <label><input type='checkbox' v-model="checks" value="persimmon"> 柿子</label>
+            <label><input type='checkbox' v-model="checks" value="banana"> 香蕉</label>
+        </p>
+        <h1>{{ck}}</h1>
+        <label><input type="checkbox" v-model='ck'>是</label>
+    </div>
+</body>
+</html>

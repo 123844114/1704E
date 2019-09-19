@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .active {
+            color: red
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+            <h1>tab切换</h1>
+        <div class="box">
+            <p><span v-for="(item,index) in tabs" @click="tabFn(index)" :class="{active:current===index}" :id='index'>{{item.title}}</span></p>
+            <div class="content">
+                <div class="item">{{tabs[current].content}}</div>
+            </div>
+        </div>
+        <hr>
+        <h1>全选反选</h1>
+        <div class="box">
+            {{stars}}
+            <input type="checkbox" v-model='checkAll' @change='checkAllFn'> 全选
+            <p>
+                <label v-for='item in stars'>
+                    <input type="checkbox" v-model='item.isCheck' @change="checkFn(item)">{{item.name}}
+                </label>
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

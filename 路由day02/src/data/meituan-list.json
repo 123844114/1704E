@@ -1,0 +1,164 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "id": 0,
+            "frontImg": "https://img.meituan.net/msmerchant/4ec3dd6b6dc8add6f845c5242c24a0d3147795.jpg",
+            "name": "惠丰堂饭庄（唐家岭店）",
+            "areaName": "海淀区",
+            "distance": "412m",
+            "avgPrice": 86,
+            "avgScore": 5,
+            "cateName": "鲁菜",
+            "count":0,
+            "maidan": [
+                {
+                    "content": "6人餐498元，12人餐898元起",
+                    "icon": "http://p1.meituan.net/codeman/93231059874052e97c0976c8a6e30dbe910.png"
+                },
+                {
+                    "content": "89.8代100元",
+                    "icon": "http://p1.meituan.net/codeman/5b202af2ecf82c69a433a246296ca4791278.png"
+                }
+            ],
+            "evaluate":[
+                {
+                    "avator":"1.png",
+                    "name":"yie1022632",
+                    "star":3.7,
+                    "date":"2019-03-16",
+                    "content":"有点油腻，作为南方人有点不能接受",
+                    "images":["1.png","2.png"]
+                },
+                {
+                    "avator":"2.png",
+                    "name":"招财猫~",
+                    "star":5,
+                    "date":"2019-01-23",
+                    "content":"特别好吃，服务也很好上菜速度也快，很满意",
+                    "images":["1.png","2.png",""]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "frontImg": "https://img.meituan.net/msmerchant/4ec3dd6b6dc8add6f845c5242c24a0d3147795.jpg",
+            "name": "北京鲜火锅",
+            "areaName": "海淀区",
+            "distance": "390m",
+            "avgPrice": 80,
+            "avgScore": 3.5,
+            "cateName": "火锅",
+            "count":0,
+            "maidan": [
+                {
+                    "content": "69代100元，78代100元",
+                    "icon": "http://p1.meituan.net/codeman/93231059874052e97c0976c8a6e30dbe910.png"
+                },
+                {
+                    "content": "买单立享7.8折",
+                    "icon": "http://p1.meituan.net/codeman/5b202af2ecf82c69a433a246296ca4791278.png"
+                }
+            ],
+            "evaluate":[
+                {
+                    "avator":"1.png",
+                    "name":"yie1022632",
+                    "star":3.7,
+                    "date":"2019-03-16",
+                    "content":"有点油腻，作为南方人有点不能接受",
+                    "images":["1.png","2.png"]
+                },
+                {
+                    "avator":"2.png",
+                    "name":"招财猫~",
+                    "star":5,
+                    "date":"2019-01-23",
+                    "content":"特别好吃，服务也很好上菜速度也快，很满意",
+                    "images":["1.png","2.png",""]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "frontImg": "https://img.meituan.net/msmerchant/4ec3dd6b6dc8add6f845c5242c24a0d3147795.jpg",
+            "name": "太熟悉家常菜（北清路店）",
+            "areaName": "海淀区",
+            "distance": "2.3km",
+            "avgPrice": 182,
+            "avgScore": 3.4,
+            "cateName": "家常菜",
+            "count":0,
+            "maidan": [
+                {
+                    "content": "6人餐498元，12人餐898元起",
+                    "icon": "http://p1.meituan.net/codeman/93231059874052e97c0976c8a6e30dbe910.png"
+                },
+                {
+                    "content": "89.8代100元",
+                    "icon": "http://p1.meituan.net/codeman/5b202af2ecf82c69a433a246296ca4791278.png"
+                }
+            ],
+            "evaluate":[
+                {
+                    "avator":"1.png",
+                    "name":"yie1022632",
+                    "star":3.7,
+                    "date":"2019-03-16",
+                    "content":"有点油腻，作为南方人有点不能接受",
+                    "images":["1.png","2.png"]
+                },
+                {
+                    "avator":"2.png",
+                    "name":"招财猫~",
+                    "star":5,
+                    "date":"2019-01-23",
+                    "content":"特别好吃，服务也很好上菜速度也快，很满意",
+                    "images":["1.png","2.png",""]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "frontImg": "https://img.meituan.net/msmerchant/4ec3dd6b6dc8add6f845c5242c24a0d3147795.jpg",
+            "name": "太熟悉家常菜（北清路店）",
+            "areaName": "海淀区",
+            "distance": "2.3km",
+            "avgPrice": 52,
+            "avgScore": 3.9,
+            "cateName": "家常菜",
+            "count":0,
+            "maidan": [
+                {
+                    "content": "6人餐498元，12人餐898元起",
+                    "icon": "http://p1.meituan.net/codeman/93231059874052e97c0976c8a6e30dbe910.png"
+                },
+                {
+                    "content": "89.8代100元",
+                    "icon": "http://p1.meituan.net/codeman/5b202af2ecf82c69a433a246296ca4791278.png"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "frontImg": "https://img.meituan.net/msmerchant/4ec3dd6b6dc8add6f845c5242c24a0d3147795.jpg",
+            "name": "太熟悉家常菜（北清路店）",
+            "areaName": "海淀区",
+            "distance": "2.3km",
+            "avgPrice": 40,
+            "avgScore": 4,
+            "cateName": "家常菜",
+            "count":0,
+            "maidan": [
+                {
+                    "content": "6人餐498元，12人餐898元起",
+                    "icon": "http://p1.meituan.net/codeman/93231059874052e97c0976c8a6e30dbe910.png"
+                },
+                {
+                    "content": "89.8代100元",
+                    "icon": "http://p1.meituan.net/codeman/5b202af2ecf82c69a433a246296ca4791278.png"
+                }
+            ]
+        }
+    ]
+}

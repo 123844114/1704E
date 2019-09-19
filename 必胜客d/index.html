@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    ul{
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:left
+    }
+    li{
+        width: 25%;
+        text-align: center;
+        border: 1px solid red;
+        box-sizing: border-box;
+        padding-bottom: 20px
+    }
+    .price{
+        color:red
+    }
+    .order{
+        width: 50%;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    background: #17ab75;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    }
+    p{
+        height: 15px;
+        line-height: 15px;
+    }
+    img{
+        width: 100%
+    }
+    #app{
+        width: 1200px;
+        margin: 0 auto
+    }
+    .tab span{
+        display: inline-block;
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    margin: 20px 10px;
+    border: 1px solid #afa9a9;
+    cursor: pointer;
+    }
+    .tab span:hover{
+        background: red;
+        border-color:red;
+        color:#fff
+    }
+    .tab span.active{
+        border-color:red;
+        background: red
+    }
+    /* 遮罩层效果 */
+    .cover{
+        position: fixed;
+        top: 0;
+        bottom:0;
+        left:0;
+        right:0;
+        background: rgba(0, 0, 0, .5)
+    }
+    .login{
+        width: 500px;
+        min-height: 300px;
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -250px;
+        margin-top: -150px
+    }
+    .on{
+        background: red
+    }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="tab">
+            <span v-for="(item,index) in dataJson" :key='index' @click="tabFn(index)" :class="{active:current===index}">{{item.name}}</span>
+        </div>
+        <ul class="content">
+            <li v-for="item in getList()">
+                <img :src="item.img" alt="">
+                <p >{{item.title}}</p>
+                <p >{{item.desc}}</p>
+                <p><span class="price">{{item.price}}元</span><span>/{{item.pack}}</span></p>
+                <p><span class="order" >立即订餐</span></p>
+            </li>
+        </ul>
+        <!-- 遮罩层 -->
+        <!-- <div class="cover" @click.self="isShowCover=false" v-show="isShowCover">
+            <div class="login">
+                <p><input type="text" placeholder="请输入您的手机号" maxlength="11" v-model="mobile" @input="checkMobile"></p>
+                <p><input type="text" placeholder="验证码6位" v-model="code"> <span :class="{'on':flag}">发送验证码</span></p>
+            </div>
+        </div> -->
+    </div>
+</body>
+</html>

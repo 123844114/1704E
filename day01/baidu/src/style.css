@@ -1,0 +1,9 @@
+h1{
+    color: blue
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    background: url(./images/1.png) no-repeat;
+}
