@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       taskList:[
-        {name:'跑男',flag:false},
+        {name:'跑男11111',flag:false},
         {name:'极限挑战',flag:true}
       ],
       name:''
